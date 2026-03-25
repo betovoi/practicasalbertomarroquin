@@ -41,6 +41,11 @@ margin-bottom: 10px;
 max-height:max-content;
 font-size: 1.4rem;
 }
+
+
+
+
+
 /* Flexbox para menú */
 .menu {
 display: flex;
@@ -49,7 +54,6 @@ list-style: none;
 gap: 20px;
 font-size: 0.9rem;
 }
-
 .link {
 text-decoration: none;
 color: #fff;
