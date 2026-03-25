@@ -21,11 +21,11 @@
     <header> 
         <h1 class="tema">Scooby-Doo wiki</h1> 
         <nav class="nav"> 
-            <ul> 
+            <ul class="menu"> 
                 <li><a class="link" href="#s1" >Historia</a></li> 
                 <li><a class="link" href="#s2" >Información</a></li> 
                 <li><a class="link" href="#s3" >Ficha técnica</a></li> 
-                <li><a class="link" href="#s4" >Registro de fans</a></li> 
+                <li><a class="link" href="#s4" >Registro</a></li> 
                 <li><a class="link" href="#s5" >Galería</a></li> 
             </ul> 
         </nav> 
@@ -46,24 +46,38 @@
 
              <p><b>El Legado:</b> Lo que comenzó como un ajuste a las normas de la industria terminó convirtiéndose en un fenómeno cultural. Scooby-Doo demostró que un gran personaje no solo entretiene, sino que se adapta a su tiempo hasta volverse atemporal.
              </p>   
+             <a href="https://es.wikipedia.org/wiki/Scooby-Doo" target="_blank">conoce mas sobre scooby-doo</a>
               <img class="imgpeq" src="img/escubidu.jpg" alt="imagen de Scooby-Doo" width="150px">
  
          </section> 
          
          <section> 
              <h2 id="s2" class="subtitulo">Información sobre Scooby-Doo.</h2>
-                 <ul>
+                 <ol>
                      <li><b>Grupo Icónico: </b> La dinámica entre el miedoso Scooby, el glotón Shaggy, la audaz Daphne, la inteligente Vilma y el líder Fred (junto a su famosa camioneta, la Máquina del Misterio).</li>
                      <li><b>Misterio y Aventura:</b>La fórmula clásica de investigar eventos aparentemente sobrenaturales que terminan teniendo una explicación lógica y humana.</li>
                      <li><b>Humor Característico:</b>  Basado en la comedia física (slapstick), las persecuciones rítmicas y la cobardía encantadora de sus protagonistas.</li>
                      <li><b>Impacto Generacional:</b>   Una mezcla de nostalgia y evolución que permite a la franquicia seguir vigente para nuevos espectadores sin perder su esencia original.</li>
-                 </ul> 
+                 </ol> 
              
              <h2 class="subtitulo">momento mas historicos de Scooby-Doo</h2>
-
+             <ul>
+                  <li>
+                    <strong> El inicio. Se estrena Scooby-Doo, Where Are You!</strong>, mezclando por primera vez el terror clásico con comedia.
+                 </li>
+                 <li>
+                    <strong>El rescate. Aparece Scrappy-Doo.</strong> Aunque hoy es polémico, su energía salvó a la serie de ser cancelada por bajos ratings.
+                 </li>
+                 <li>
+                    <strong>El giro real. Con La Isla de los Zombies</strong>, los monstruos dejan de ser personas con máscaras y se vuelven reales, reviviendo la franquicia para una nueva generación.
+                 </li>
+                 <li>
+                    <strong>El cine. El salto al live-action (con guion de James Gunn)</strong> convirtió a Scooby en un fenómeno global de taquilla.
+                 </li>
+            </ul>
         </section>       
                  
-        <section> 
+        <section class="ficha"> 
             <h2 id="s3" class="subtitulo">Ficha técnica sobre Scooby-Doo.</h2>
 
       <table>
@@ -105,31 +119,40 @@
          </table>
          </section>     
                  
-         <section> 
-            <h2 id="s4" class="subtitulo">Registro de fans</h2>
-         <form action="/enviar" method="POST">
-         <div class="campo">
-            <label for="nombre">Nombre completo:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Ej. Shaggy Rogers" required>
-         </div>
+         <section class="formulario"> 
+            <h2 id="s4" class="subtitulo">Registro</h2>
+             <form action="/enviar" method="POST">
+                 <div class="campo">
+                     <label for="nombre">Nombre completo:</label>
+                     <input type="text" id="nombre" name="nombre" placeholder="Ej. Shaggy Rogers" required>
+                 </div>
 
-         <div class="campo">
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" placeholder="example@correo.com" required>
-         </div>
-
-         <button type="submit">Enviar datos</button>
-          </form>
+                 <div class="campo">
+                     <label for="email">Correo electrónico:</label>
+                     <input type="email" id="email" name="email" placeholder="example@correo.com" required>
+                 </div>
+                 <div class="campo">
+                     <label for="interes">Área de interés:</label>
+                     <select name="interes" id="interes">
+                         <option value="misterios">Misterios</option>
+                         <option value="teoria">Teoría sobre scooby-doo</option>
+                         <option value="otros">otros</option>
+                     </select>
+                 </div>
+                  <input type="submit" value="Registrarse"> 
+             </form>
 
          </section>     
                  
-         <section> 
+         <section class="seccion galeria"> 
             <h2 id="s5" class="subtitulo">Galería</h2> 
-         <img class="imgpeq" src="img/escubi.jpg" alt="scooby doo" width="150px" height="240px">
-         <img class="imgpeq" src="img/family scubi.jpg" alt="familia de scooby doo"width="400px" height="240px">
-         <img class="imgpeq" src="img/la camioneta.png" alt="la camioneta de los misterios" width="150px" height="240px">
-         <img class="imgpeq" src="img/shgy y escubi.jpg" alt="Shaggy and Scooby-Doo" width="150px" height="240px">
-         </section> 
+             <div class="contenedor-galeria">
+                 <img src="img/escubi.jpg" alt="scooby doo" width="150px" >
+                 <img src="img/family scubi.jpg" alt="familia de scooby doo"width="400px">
+                 <img src="img/la camioneta.png" alt="la camioneta de los misterios" width="150px" >
+                 <img src="img/shgy y escubi.jpg" alt="Shaggy and Scooby-Doo" width="150px">
+             </div> 
+        </section> 
              
     </main> 
      
