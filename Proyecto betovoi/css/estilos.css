@@ -1,3 +1,18 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tema{
 font-family: playfair display, serif ;
 font-weight: 500;
@@ -23,6 +38,7 @@ justify-content: space-evenly;
 }
 
 
+
 .subtitulo{
 font-family: playfair display, serif ;
 font-weight: 450;
@@ -36,12 +52,14 @@ padding: 20;
 box-sizing: border-box;
 }
 
+
 body {
 font-family: 'Times New Roman', Times, serif;
 background-image: url(../img/fondo.jpg);
 background-size: contain;
 line-height: 1.5;
 }
+
 
 .menu {
 display: flex;
@@ -50,6 +68,7 @@ list-style: none;
 gap: 20px;
 font-size: 0.9rem;
 }
+
 .link {
 text-decoration: none;
 color: #ffffff;
@@ -61,11 +80,13 @@ transition: 0.3s;
 background-color: rgba(153, 66, 66, 0.678);
 }
 
+
 main {
 width: 85%;
 max-width: 1100px;
 margin: auto;
 }
+
 section {
 margin: 45px 0; 
 padding: 20px;
@@ -73,12 +94,13 @@ background-color: #fde4bc;
 border-radius: 20px;
 box-shadow: 0 4px 10px rgb(240, 7, 7);
 }
-/* ID selector */
+
 #s1, #s2, #s3, #s4, #s5 {
 margin-bottom: 15px;
 color: #584343;
 text-align: center;
 }
+
 
 .imgpeq {
 border: solid #d3ab80 7px;
@@ -87,12 +109,14 @@ float: none ;
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+
 ul, ol {
 margin-left: 25px;
 }
 li {
 margin-bottom: 7px;
 }
+
 
 .ficha table {
 width: 100%;
@@ -106,6 +130,7 @@ padding: 10px;
 background-color: #b1651fc2;
 color: rgb(255, 255, 255);
 }
+
 
 form {
 margin-top: 20px;
@@ -147,6 +172,7 @@ align-content: center;
 justify-content: center
 
 }
+
 .galeria img {
 width: 30%;
 height: 300px;
@@ -155,9 +181,11 @@ border-radius: 10px;
 transition: transform 0.3s;
 
 }
+
 .galeria img:hover {
 transform: scale(1.1);
 }
+
 
 footer {
 text-align: center;
